@@ -3,35 +3,35 @@
 const productos = [
     // Memorias RAM
     { id: 1, nombre: "Memoria RAM 8GB DDR4 2666MHz", categoria: "ram", precio: 180000, imagen: "img/MemoriaRam2.jpg", stock: 15, descripcion: "Perfecta para gaming básico y tareas cotidianas", stockOriginal: 15 },
-    { id: 2, nombre: "Memoria RAM 16GB DDR4 3200MHz", categoria: "ram", precio: 250000, imagen: "img/MemoriaRam2.jpg", stock: 12, descripcion: "Ideal para gaming avanzado y multitarea", stockOriginal: 12 },
-    { id: 3, nombre: "Memoria RAM 32GB DDR4 3600MHz", categoria: "ram", precio: 480000, imagen: "img/Ram.jpg", stock: 8, descripcion: "Para workstations y edición de video profesional", stockOriginal: 8 },
-    { id: 4, nombre: "Memoria RAM 16GB DDR5 5600MHz", categoria: "ram", precio: 320000, imagen: "img/Ram.jpg", stock: 10, descripcion: "Última generación para máximo rendimiento", stockOriginal: 10 },
+    { id: 2, nombre: "Memoria RAM 16GB DDR4 3200MHz", categoria: "ram", precio: 250000, imagen: "img/MEMORIARAM4.PNG", stock: 12, descripcion: "Ideal para gaming avanzado y multitarea", stockOriginal: 12 },
+    { id: 3, nombre: "Memoria RAM 32GB DDR4 3600MHz", categoria: "ram", precio: 480000, imagen: "img/RAM 32GB.PNG", stock: 8, descripcion: "Para workstations y edición de video profesional", stockOriginal: 8 },
+    { id: 4, nombre: "Memoria RAM 16GB DDR5 5600MHz", categoria: "ram", precio: 320000, imagen: "img/MEMORIARAM3.PNG", stock: 10, descripcion: "Última generación para máximo rendimiento", stockOriginal: 10 },
     { id: 25, nombre: "Memoria RAM 64GB DDR4 Kit", categoria: "ram", precio: 920000, imagen: "img/Ram.jpg", stock: 5, descripcion: "Kit profesional para estaciones de trabajo", stockOriginal: 5 },
     
     // Monitores
     { id: 5, nombre: "Monitor 24\" Full HD IPS", categoria: "monitores", precio: 850000, imagen: "img/Monitor.webp", stock: 20, descripcion: "Excelente calidad de imagen para trabajo y entretenimiento", stockOriginal: 20 },
     { id: 6, nombre: "Monitor 27\" QHD 144Hz Gaming", categoria: "monitores", precio: 1200000, imagen: "img/Monitores.avif", stock: 8, descripcion: "Gaming fluido con alta resolución", stockOriginal: 8 },
-    { id: 7, nombre: "Monitor 32\" 4K UHD", categoria: "monitores", precio: 1800000, imagen: "img/Monitor.webp", stock: 6, descripcion: "Para profesionales creativos y contenido 4K", stockOriginal: 6 },
-    { id: 8, nombre: "Monitor Gaming 24\" 165Hz Curved", categoria: "monitores", precio: 950000, imagen: "img/Monitores.avif", stock: 12, descripcion: "Monitor curvo para máxima inmersión gaming", stockOriginal: 12 },
-    { id: 26, nombre: "Monitor Ultrawide 34\" QHD", categoria: "monitores", precio: 2200000, imagen: "img/Monitor.webp", stock: 4, descripcion: "Productividad y gaming ultrawide", stockOriginal: 4 },
+    { id: 7, nombre: "Monitor 32\" 4K UHD", categoria: "monitores", precio: 1800000, imagen: "img/monitor1.png", stock: 6, descripcion: "Para profesionales creativos y contenido 4K", stockOriginal: 6 },
+    { id: 8, nombre: "Monitor Gaming 24\" 165Hz Curved", categoria: "monitores", precio: 950000, imagen: "img/monitor2.png", stock: 12, descripcion: "Monitor curvo para máxima inmersión gaming", stockOriginal: 12 },
+    { id: 26, nombre: "Monitor Ultrawide 34\" QHD", categoria: "monitores", precio: 2200000, imagen: "img/monitor3.png", stock: 4, descripcion: "Productividad y gaming ultrawide", stockOriginal: 4 },
     { id: 27, nombre: "Monitor 21.5\" Full HD Budget", categoria: "monitores", precio: 650000, imagen: "img/Monitores.avif", stock: 25, descripcion: "Opción económica con buena calidad", stockOriginal: 25 },
     
     // Procesadores
     { id: 9, nombre: "Intel Core i5-12400F 6-Core", categoria: "procesadores", precio: 650000, imagen: "img/Procesador.jpg", stock: 18, descripcion: "Excelente relación precio-rendimiento para gaming", stockOriginal: 18 },
     { id: 10, nombre: "Intel Core i7-12700K 12-Core", categoria: "procesadores", precio: 1500000, imagen: "img/Procesadores3.png", stock: 10, descripcion: "Alto rendimiento para gaming y productividad", stockOriginal: 10 },
-    { id: 11, nombre: "AMD Ryzen 5 5600X 6-Core", categoria: "procesadores", precio: 720000, imagen: "img/Procesador.jpg", stock: 14, descripcion: "Procesador gaming con arquitectura Zen 3", stockOriginal: 14 },
+    { id: 11, nombre: "AMD Ryzen 5 5600X 6-Core", categoria: "procesadores", precio: 720000, imagen: "img/procesador1.png", stock: 14, descripcion: "Procesador gaming con arquitectura Zen 3", stockOriginal: 14 },
     { id: 12, nombre: "AMD Ryzen 7 5800X3D Gaming", categoria: "procesadores", precio: 1350000, imagen: "img/Procesadores3.png", stock: 7, descripcion: "Especializado en gaming con cache 3D", stockOriginal: 7 },
-    { id: 28, nombre: "Intel Core i3-12100F Budget", categoria: "procesadores", precio: 420000, imagen: "img/Procesador.jpg", stock: 22, descripcion: "Procesador económico para builds básicos", stockOriginal: 22 },
-    { id: 29, nombre: "AMD Ryzen 9 5900X 12-Core", categoria: "procesadores", precio: 1800000, imagen: "img/Procesadores3.png", stock: 5, descripcion: "Potencia extrema para profesionales", stockOriginal: 5 },
+    { id: 28, nombre: "Intel Core i3-12100F Budget", categoria: "procesadores", precio: 420000, imagen: "img/procesador2.png", stock: 22, descripcion: "Procesador económico para builds básicos", stockOriginal: 22 },
+    { id: 29, nombre: "AMD Ryzen 9 5900X 12-Core", categoria: "procesadores", precio: 1800000, imagen: "img/procesador3.png", stock: 5, descripcion: "Potencia extrema para profesionales", stockOriginal: 5 },
     
     // Tarjetas Gráficas
-    { id: 13, nombre: "NVIDIA RTX 4060 8GB GDDR6", categoria: "tarjetas-graficas", precio: 1800000, imagen: "img/Procesador.jpg", stock: 12, descripcion: "Ray tracing y DLSS para gaming 1080p/1440p", stockOriginal: 12 },
-    { id: 14, nombre: "NVIDIA RTX 4070 12GB GDDR6X", categoria: "tarjetas-graficas", precio: 2500000, imagen: "img/Procesadores3.png", stock: 8, descripcion: "Gaming 4K y creación de contenido", stockOriginal: 8 },
-    { id: 15, nombre: "AMD RX 6600 XT 8GB GDDR6", categoria: "tarjetas-graficas", precio: 1600000, imagen: "img/Procesador.jpg", stock: 10, descripcion: "Excelente para gaming 1080p de alta calidad", stockOriginal: 10 },
-    { id: 16, nombre: "NVIDIA RTX 4080 16GB GDDR6X", categoria: "tarjetas-graficas", precio: 4200000, imagen: "img/Procesadores3.png", stock: 4, descripcion: "Gaming 4K extremo y AI", stockOriginal: 4 },
-    { id: 30, nombre: "AMD RX 7600 8GB GDDR6", categoria: "tarjetas-graficas", precio: 1400000, imagen: "img/Procesador.jpg", stock: 9, descripcion: "Nueva generación RDNA3", stockOriginal: 9 },
-    { id: 31, nombre: "NVIDIA RTX 4090 24GB GDDR6X", categoria: "tarjetas-graficas", precio: 6800000, imagen: "img/Procesadores3.png", stock: 2, descripcion: "La GPU más potente del mercado", stockOriginal: 2 },
-    
+    { id: 13, nombre: "NVIDIA RTX 4060 8GB GDDR6", categoria: "tarjetas-graficas", precio: 1800000, imagen: "img/grafica1.png", stock: 12, descripcion: "Ray tracing y DLSS para gaming 1080p/1440p", stockOriginal: 12 },
+    { id: 14, nombre: "NVIDIA RTX 4070 12GB GDDR6X", categoria: "tarjetas-graficas", precio: 2500000, imagen: "img/grafica2.png", stock: 8, descripcion: "Gaming 4K y creación de contenido", stockOriginal: 8 },
+    { id: 15, nombre: "AMD RX 6600 XT 8GB GDDR6", categoria: "tarjetas-graficas", precio: 1600000, imagen: "img/grafica3.png", stock: 10, descripcion: "Excelente para gaming 1080p de alta calidad", stockOriginal: 10 },
+    { id: 16, nombre: "NVIDIA RTX 4080 16GB GDDR6X", categoria: "tarjetas-graficas", precio: 4200000, imagen: "img/grafica4.png", stock: 4, descripcion: "Gaming 4K extremo y AI", stockOriginal: 4 },
+    { id: 30, nombre: "AMD RX 7600 8GB GDDR6", categoria: "tarjetas-graficas", precio: 1400000, imagen: "img/grafica1.png", stock: 9, descripcion: "Nueva generación RDNA3", stockOriginal: 9 },
+    { id: 31, nombre: "NVIDIA RTX 4090 24GB GDDR6X", categoria: "tarjetas-graficas", precio: 6800000, imagen: "img/grafica4.png", stock: 2, descripcion: "La GPU más potente del mercado", stockOriginal: 2 },
+
     // Discos Duros
     { id: 17, nombre: "SSD 500GB NVMe PCIe 4.0", categoria: "discos", precio: 280000, imagen: "img/MemoriaRam2.jpg", stock: 30, descripcion: "Velocidades ultrarrápidas para sistema operativo", stockOriginal: 30 },
     { id: 18, nombre: "SSD 1TB NVMe PCIe 4.0", categoria: "discos", precio: 450000, imagen: "img/Ram.jpg", stock: 25, descripcion: "Espacio amplio con máxima velocidad", stockOriginal: 25 },
