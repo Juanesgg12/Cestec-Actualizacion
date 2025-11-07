@@ -33,20 +33,20 @@ const productos = [
     { id: 31, nombre: "NVIDIA RTX 4090 24GB GDDR6X", categoria: "tarjetas-graficas", precio: 6800000, imagen: "img/grafica4.png", stock: 2, descripcion: "La GPU más potente del mercado", stockOriginal: 2 },
 
     // Discos Duros
-    { id: 17, nombre: "SSD 500GB NVMe PCIe 4.0", categoria: "discos", precio: 280000, imagen: "img/MemoriaRam2.jpg", stock: 30, descripcion: "Velocidades ultrarrápidas para sistema operativo", stockOriginal: 30 },
-    { id: 18, nombre: "SSD 1TB NVMe PCIe 4.0", categoria: "discos", precio: 450000, imagen: "img/Ram.jpg", stock: 25, descripcion: "Espacio amplio con máxima velocidad", stockOriginal: 25 },
-    { id: 19, nombre: "HDD 2TB 7200RPM SATA", categoria: "discos", precio: 320000, imagen: "img/MemoriaRam2.jpg", stock: 18, descripcion: "Gran capacidad para almacenamiento masivo", stockOriginal: 18 },
-    { id: 20, nombre: "SSD 2TB NVMe PCIe 4.0", categoria: "discos", precio: 850000, imagen: "img/Ram.jpg", stock: 12, descripcion: "Máximo espacio y velocidad", stockOriginal: 12 },
-    { id: 32, nombre: "SSD 240GB SATA III", categoria: "discos", precio: 150000, imagen: "img/MemoriaRam2.jpg", stock: 35, descripcion: "SSD básico para empezar", stockOriginal: 35 },
-    { id: 33, nombre: "HDD 4TB 5400RPM SATA", categoria: "discos", precio: 480000, imagen: "img/Ram.jpg", stock: 15, descripcion: "Almacenamiento masivo económico", stockOriginal: 15 },
+    { id: 17, nombre: "SSD 500GB NVMe PCIe 4.0", categoria: "discos", precio: 280000, imagen: "img/disco1.png", stock: 30, descripcion: "Velocidades ultrarrápidas para sistema operativo", stockOriginal: 30 },
+    { id: 18, nombre: "SSD 1TB NVMe PCIe 4.0", categoria: "discos", precio: 450000, imagen: "img/disco2.png", stock: 25, descripcion: "Espacio amplio con máxima velocidad", stockOriginal: 25 },
+    { id: 19, nombre: "HDD 2TB 7200RPM SATA", categoria: "discos", precio: 320000, imagen: "img/disco3.png", stock: 18, descripcion: "Gran capacidad para almacenamiento masivo", stockOriginal: 18 },
+    { id: 20, nombre: "SSD 2TB NVMe PCIe 4.0", categoria: "discos", precio: 850000, imagen: "img/disco1.png", stock: 12, descripcion: "Máximo espacio y velocidad", stockOriginal: 12 },
+    { id: 32, nombre: "SSD 240GB SATA III", categoria: "discos", precio: 150000, imagen: "img/disco2.png", stock: 35, descripcion: "SSD básico para empezar", stockOriginal: 35 },
+    { id: 33, nombre: "HDD 4TB 5400RPM SATA", categoria: "discos", precio: 480000, imagen: "img/disco3.png", stock: 15, descripcion: "Almacenamiento masivo económico", stockOriginal: 15 },
     
     // Fuentes de Poder
-    { id: 21, nombre: "Fuente 650W 80+ Gold Modular", categoria: "fuentes", precio: 450000, imagen: "img/Monitor.webp", stock: 20, descripcion: "Eficiencia energética y cables modulares", stockOriginal: 20 },
-    { id: 22, nombre: "Fuente 750W 80+ Gold Semi-Modular", categoria: "fuentes", precio: 580000, imagen: "img/Monitores.avif", stock: 15, descripcion: "Para sistemas gaming de gama media-alta", stockOriginal: 15 },
-    { id: 23, nombre: "Fuente 850W 80+ Platinum Modular", categoria: "fuentes", precio: 720000, imagen: "img/Monitor.webp", stock: 10, descripcion: "Máxima eficiencia para sistemas de alta gama", stockOriginal: 10 },
-    { id: 24, nombre: "Fuente 1000W 80+ Gold Modular", categoria: "fuentes", precio: 880000, imagen: "img/Monitores.avif", stock: 8, descripcion: "Para sistemas extremos y múltiples GPUs", stockOriginal: 8 },
-    { id: 34, nombre: "Fuente 500W 80+ Bronze", categoria: "fuentes", precio: 320000, imagen: "img/Monitor.webp", stock: 25, descripcion: "Opción básica para builds económicos", stockOriginal: 25 },
-    { id: 35, nombre: "Fuente 1200W 80+ Titanium", categoria: "fuentes", precio: 1200000, imagen: "img/Monitores.avif", stock: 3, descripcion: "Máxima eficiencia y potencia", stockOriginal: 3 }
+    { id: 21, nombre: "Fuente 650W 80+ Gold Modular", categoria: "fuentes", precio: 450000, imagen: "img/fuente1.png", stock: 20, descripcion: "Eficiencia energética y cables modulares", stockOriginal: 20 },
+    { id: 22, nombre: "Fuente 750W 80+ Gold Semi-Modular", categoria: "fuentes", precio: 580000, imagen: "img/fuente2.png", stock: 15, descripcion: "Para sistemas gaming de gama media-alta", stockOriginal: 15 },
+    { id: 23, nombre: "Fuente 850W 80+ Platinum Modular", categoria: "fuentes", precio: 720000, imagen: "img/fuente3.png", stock: 10, descripcion: "Máxima eficiencia para sistemas de alta gama", stockOriginal: 10 },
+    { id: 24, nombre: "Fuente 1000W 80+ Gold Modular", categoria: "fuentes", precio: 880000, imagen: "img/fuente1.png", stock: 8, descripcion: "Para sistemas extremos y múltiples GPUs", stockOriginal: 8 },
+    { id: 34, nombre: "Fuente 500W 80+ Bronze", categoria: "fuentes", precio: 320000, imagen: "img/fuente2.png", stock: 25, descripcion: "Opción básica para builds económicos", stockOriginal: 25 },
+    { id: 35, nombre: "Fuente 1200W 80+ Titanium", categoria: "fuentes", precio: 1200000, imagen: "img/fuente3.png", stock: 3, descripcion: "Máxima eficiencia y potencia", stockOriginal: 3 }
 ];
 
 // Definición de categorías con información adicional
@@ -105,9 +105,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Función principal de inicialización
 function inicializarApp() {
-    cargarCarritoDesdeStorage();
+    cargarCarritoDesdeStorage(); // Recupera el carrito guardado
     cargarProductosDesdeStorage(); // Cargar estado de productos
-    actualizarContadorCarrito();
+    actualizarContadorCarrito(); // Muestra cantidad de items en el carrito
     // Detectar página actual y cargar contenido apropiado
     const paginaActual = obtenerPaginaActual();
     switch(paginaActual) {
